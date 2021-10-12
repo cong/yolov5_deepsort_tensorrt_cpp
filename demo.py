@@ -1,3 +1,12 @@
+# -*- coding: utf-8 -*-
+#!/usr/bin/python3
+"""
+Created on 2021/5/24 13:46
+@Author: Wang Cong
+@Email : iwangcong@outlook.com
+@Version : 0.1
+@File : demo_trt.py
+"""
 import yolo_deepsort
 import cv2
 import time
