@@ -13,10 +13,10 @@ import time
 
 if __name__ == '__main__':
 
-    video_path = './video/test.mp4'
+    # video_path = './video/test.mp4'
     yolo_engine = './yolov5/yolov5s.engine'
     sort_engine = './deepsort/deepsort.engine'
-    capture = cv2.VideoCapture(video_path)
+    capture = cv2.VideoCapture(0)
     yolo_deepsort_test = yolo_deepsort.Yolov5DeepSort(yolo_engine, sort_engine)
 
     fps = 0.0
