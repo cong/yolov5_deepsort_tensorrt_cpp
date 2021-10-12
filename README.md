@@ -4,13 +4,13 @@
 
 This repo is a C++ version of **[yolov5_deepsort_tensorrt](https://github.com/cong/yolov5_deepsort_tensorrt)**. 
 
-packing all C++ programs into .so files, using Python script to call C++ programs further.
+And packing all C++ programs into .so files, using Python script to call C++ programs further.
 
 The entire project file size totals 40MB
 
 **NVIDIA Jetson Xavier NX**  and the *X86* architecture works all be ok. 
 
-
+Since this project is being used in a science and technology major project, we just temporarily provide a test example.
 
 ## Environments
 
