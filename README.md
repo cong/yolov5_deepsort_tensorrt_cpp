@@ -24,6 +24,30 @@ All platforms：
 
 The speeds of DeepSort depend on the target number in the picture.
 
-The following data are tested in the case of single target in the picture.
+The following data are tested in the case of single target and 100+ targets with 720p USB camera.
 
 
+| Platforms         | Single target         | 100+ targets           |
+| :---------------- | --------------------- | ---------------------- |
+| GTX 2080Ti        | 8ms / 125FPS / 1247M  | 31ms /  32FPS / 1247M  |
+| Jetson Xavier NX  | -ms / -FPS / -M  | -ms /  -FPS / -M  |
+
+## Inference
+
+1. Clone this repo
+
+   ```shell
+   git clone https://github.com/cong/yolov5_deepsort_tensorrt_cpp.git
+   ```
+
+2. Install the requirements
+
+   ```shell
+   pip install -r requirements.txt
+   ```
+   
+3. Run
+
+   ```
+   python demo.py
+   ```
