@@ -51,3 +51,14 @@ The following data are tested in the case of single target and 100+ targets with
    ```
    python demo.py
    ```
+
+## Customize
+
+1. Training your own model.
+2. Convert your own model to engine.
+3. Replace the `***.engine` file.
+
+## Optional setting
+
+- Your likes are my motivation to update the project, if you feel that it is helpful to you, please give me a star. Thx!  :)
+- For more information you can visit the [Blog](http://wangcong.net).
