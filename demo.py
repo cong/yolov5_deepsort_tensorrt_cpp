@@ -19,7 +19,6 @@ if __name__ == '__main__':
     yolo_deepsort_test = yolo_deepsort.Yolov5DeepSort(yolo_engine, sort_engine)
 
     fps = 0.0
-
     while True:
         ret, img = capture.read()
         if img is None:
@@ -33,7 +32,6 @@ if __name__ == '__main__':
         cv2.imshow('frame', frame)
         if cv2.waitKey(10) & 0xFF == ord('q'):
             break
-
 
     capture.release()
     cv2.destroyAllWindows()
