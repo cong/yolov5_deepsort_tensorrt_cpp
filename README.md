@@ -40,13 +40,7 @@ The following data are tested in the case of single target and 100+ targets with
    git clone https://github.com/cong/yolov5_deepsort_tensorrt_cpp.git
    ```
 
-2. Install the requirements
-
-   ```shell
-   pip install -r requirements.txt
-   ```
-   
-3. Run
+2. Run
 
    ```
    python demo.py
