@@ -17,7 +17,7 @@ Since this project is being used in a science and technology major project, we j
 All platforms：
 - CUDA and cuDNN latest
 - Python 3.7
-- OpenCV-Python latest (we use 4.2)
+- OpenCV latest (we use 4.2)
 
 
 ## Speed
